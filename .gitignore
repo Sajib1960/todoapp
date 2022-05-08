@@ -1,3 +1,6 @@
 myenv
 .vscode/
 __pycache__
+migrations
+info.txt
+db.sqlite3
