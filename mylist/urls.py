@@ -18,4 +18,8 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('add', views.addTask, name='add'),
+    path('completed/<task_id>', views.completedTask, name='completed'),
+    path('delete_completed', views.delete_completedTask, name='delete_completed'),
+    path('delete_all', views.delete_allTask, name='delete_all'),
 ]
